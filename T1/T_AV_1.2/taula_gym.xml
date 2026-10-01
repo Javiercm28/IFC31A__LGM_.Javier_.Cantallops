@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<socis>
+  <soci>
+    <nom>Miquel</nom>
+    <cognom>Pons</cognom>
+    <dni>45633875F</dni>
+  </soci>
+  <soci>
+    <nom>Joan</nom>
+    <cognom>Ribes</cognom>
+    <dni>97458352S</dni>
+  </soci>
+  <soci>
+    <nom>Maria</nom>
+    <cognom>Puig</cognom>
+    <dni>68411452W</dni>
+  </soci>
+</socis>
