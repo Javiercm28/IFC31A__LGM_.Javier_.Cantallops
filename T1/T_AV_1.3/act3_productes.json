@@ -1,0 +1,17 @@
+{
+    "productes": [
+        {
+            "nom":"E‑Bike X",
+            "tipus":"Bicicleta",
+            "autonomia":"120km",
+            "preu":"1299€"
+        },
+
+        {
+            "nom":"City‑Scoot",
+            "tipus":"Patinet",
+            "autonomia":"45km",
+            "preu":"549€"
+        }
+    ]
+}
