@@ -12,6 +12,12 @@
             "tipus":"Patinet",
             "autonomia":"45km",
             "preu":"549€"
+        },
+        {
+            "nom":"Eco‑Car Z",
+            "tipus":"Cotxe",
+            "autonomia":"410km",
+            "preu":"31990€"
         }
     ]
 }
