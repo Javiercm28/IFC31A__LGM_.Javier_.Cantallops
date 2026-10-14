@@ -1,0 +1,20 @@
+{
+    "enquesta1":{
+        "id":"",
+        "titol":"",
+        "activa": true,
+        "preguntes":[
+            {"pregunta1":""},
+            {"pregunta2":""}
+        ]
+    },
+    "enquesta2":{
+        "id":"",
+        "titol":"",
+        "activa": true,
+        "preguntes":[
+            {"pregunta1":""},
+            {"pregunta2":""}
+        ]
+    }
+}
