@@ -4,8 +4,18 @@
         "titol":"Sanitat Pública",
         "activa": true,
         "preguntes":[
-            {"pregunta1":"Quant de temps has esperat per ser ates/esa a la teva darrera cita?"},
-            {"pregunta2":"Vares quedar satisfet/feta amb l'atenció donada per el personal del centre?"}
+            {
+                "pregunta1":{
+                    "text":"Quant de temps has esperat per ser ates/esa a la teva darrera cita?",
+                    "tipus":"text_lliure"
+                }
+            },
+            {
+                "pregunta2":{
+                    "text":"Vares quedar satisfet/feta amb l'atenció donada per el personal del centre?",
+                    "tipus":"7"
+                }
+            }
         ]
     },
     "enquesta2":{
