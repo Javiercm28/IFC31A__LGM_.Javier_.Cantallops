@@ -1,20 +1,21 @@
 {
     "enquesta1":{
-        "id":"",
-        "titol":"",
+        "id":"101",
+        "titol":"Sanitat Pública",
         "activa": true,
         "preguntes":[
-            {"pregunta1":""},
-            {"pregunta2":""}
+            {"pregunta1":"Quant de temps has esperat per ser ates/esa a la teva darrera cita?"},
+            {"pregunta2":"Vares quedar satisfet/feta amb l'atenció donada per el personal del centre?"}
         ]
     },
     "enquesta2":{
-        "id":"",
-        "titol":"",
-        "activa": true,
+        "id":"102",
+        "titol":"Call of duty",
+        "activa": false,
         "preguntes":[
-            {"pregunta1":""},
-            {"pregunta2":""}
+            {"pregunta1":"Has jugat alguna vegada a algun joc de la saga Call of Duty?, a quin?"},
+            {"pregunta2":"Quina modalitat has jugat? Multijugador,Zombies o campanya?"},
+            {"pregunta3":"Trobes que els jocs antics d'aquesta saga són millors que els actuals?"}
         ]
     }
 }
