@@ -1,31 +1,48 @@
 {
-    "enquesta1":{
-        "id":"101",
-        "titol":"Sanitat Pública",
-        "activa": true,
-        "preguntes":[
-            {
-                "pregunta1":{
-                    "text":"Quant de temps has esperat per ser ates/esa a la teva darrera cita?",
-                    "tipus":"text_lliure"
+    "enquestes":[
+        {
+        "enquesta1":{
+            "id":"101",
+            "titol":"Sanitat Pública",
+            "activa": true,
+            "preguntes":[
+                {
+                    "pregunta1":{
+                        "text":"Quant de temps has esperat per ser ates/esa a la teva darrera cita?",
+                        "tipus":"text_lliure"
+                    }
+                },
+                {
+                    "pregunta2":{
+                        "text":"Vares quedar satisfet/feta amb l'atenció donada per el personal del centre?",
+                        "tipus":"opcio_multiple",
+                        "opcions":["Molt","Indiferent","Poc"]
+                    }
                 }
-            },
-            {
-                "pregunta2":{
-                    "text":"Vares quedar satisfet/feta amb l'atenció donada per el personal del centre?",
-                    "tipus":"7"
+            ]
+        }
+        },
+        {
+        "enquesta2":{
+            "id":"102",
+            "titol":"Call of duty",
+            "activa": false,
+            "preguntes":[
+                {
+                    "pregunta1":{
+                        "text":"Has jugat alguna vegada a algun joc de la saga Call of Duty?, a quin?",
+                        "tipus":"text_lliure"
+                    }
+                },
+                {
+                    "pregunta2":{
+                        "text":"Quina modalitat has jugat? Multijugador,Zombies o campanya?",
+                        "tipus":"opcio_multiple",
+                        "opcions":["Multijugador","Zombies","campanya"]
+                    }
                 }
-            }
-        ]
-    },
-    "enquesta2":{
-        "id":"102",
-        "titol":"Call of duty",
-        "activa": false,
-        "preguntes":[
-            {"pregunta1":"Has jugat alguna vegada a algun joc de la saga Call of Duty?, a quin?"},
-            {"pregunta2":"Quina modalitat has jugat? Multijugador,Zombies o campanya?"},
-            {"pregunta3":"Trobes que els jocs antics d'aquesta saga són millors que els actuals?"}
-        ]
-    }
+            ]
+        }
+        }
+    ]
 }
