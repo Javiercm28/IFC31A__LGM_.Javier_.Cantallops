@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correu>
+    <asunto>Notes de la presentació d'ahir</asunto>
+    <remitente>
+        <nom>Carles Canals</nom>
+        <email>cgc@paucasesnovescifp.cat</email>
+    </remitente>
+    <destinatario>
+        <nom>Per a mi</nom>
+        <email/>
+    </destinatario>
+    <copiaa>
+        <nom>Alumnat</nom>
+        <email>alumnat@paucasesnovescifp.cat</email>
+    </copiaa>
+    <contingut>
+        <saludo>Bon dia!</saludo>
+        <cuerpo>(Aqui va el cos del correu)</cuerpo>
+        <cierre>Gràcies a tots i totes!, Carles Canals</cierre>
+        <firma>Carles Canals Professor del Departament...</firma>
+        <adjuntos>(Arxius)</adjuntos>
+    </contingut>
+</correu>

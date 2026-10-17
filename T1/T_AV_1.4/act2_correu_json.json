@@ -1,0 +1,24 @@
+{
+    "correu":{
+        "asunto":"Notes de la presentacó d'ahir",
+        "remitente":{
+            "nom":"Carles Canals",
+            "email":"cgc@paucasesnovescifp.cat"
+        },
+        "destinatario":{
+            "nom":"Per a mi",
+            "email":""
+        },
+        "copiaa":{
+            "nom":"Alumnat",
+            "email":"alumnat@paucasesnovescifp.cat"
+        },
+        "contingut":{
+            "saludo":"Bon dia!",
+            "cuerpo":"(Aqui va el cos del correu)",
+            "cierre":"Gràcies a tots i totes!, Carles Canals",
+            "firma":"Carles Canals Professor del Departament...",
+            "adjuntos":"(Arxius)"
+        }
+    }
+}

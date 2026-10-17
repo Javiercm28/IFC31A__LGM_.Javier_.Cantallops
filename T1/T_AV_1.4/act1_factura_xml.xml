@@ -15,7 +15,8 @@
         <direccio_enviament>Carrer Major, 1 , Inca, 07300 , Illes Balears</direccio_enviament>
     </dades_client>
     <dades_linia_factura>
-        <p1 ref="MII001F">
+        <productes>
+            <p1 ref="MII001F">
             <descripcio>MICRO PENTIUM IV 3000MHZ</descripcio>
             <cant>1</cant>
             <preu>250€</preu>
@@ -43,6 +44,8 @@
             <iva>16,0</iva>
             <import>556,80€</import>
         </p4>
+        </productes>
+        
         <base_imposable>990,00€</base_imposable>
         <iva>16,0</iva>
         <total_iva>155,20€</total_iva>
