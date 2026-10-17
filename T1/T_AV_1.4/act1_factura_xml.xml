@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="0001">
+    <dades_factura>
+        <nom_empresa>Empresa Ficitícia</nom_empresa>
+        <direccio>Carrer desconegut, 1 , Palma, 07001</direccio>
+        <cif>Q2826000</cif>
+        <telefon>971123456</telefon>
+        <fax>971987654</fax>
+        <data>21-10-2022</data>
+        <num_comanda>1</num_comanda>
+        <pagament>EFECTIU</pagament>
+    </dades_factura>
+    <dades_client id="001">
+        <nom>Carles Canals Gozálvez</nom>
+        <direccio_enviament>Carrer Major, 1 , Inca, 07300 , Illes Balears</direccio_enviament>
+    </dades_client>
+    <dades_linia_factura>
+        <p1 ref="MII001F">
+            <descripcio>MICRO PENTIUM IV 3000MHZ</descripcio>
+            <cant>1</cant>
+            <preu>250€</preu>
+            <iva>16,0</iva>
+            <import>266,80€</import>
+        </p1>
+        <p2 ref="MB003">
+            <descripcio>PLACA BASE QDI P4</descripcio>
+            <cant>1</cant>
+            <preu>180€</preu>
+            <iva>16,0</iva>
+            <import>208,80€</import>
+        </p2>
+        <p3 ref="MED876">
+            <descripcio>DIMM DDR 512MB 3200</descripcio>
+            <cant>2</cant>
+            <preu>40€</preu>
+            <iva>16,0</iva>
+            <import>92,80€</import>
+        </p3>
+        <p4 ref="HD250G">
+            <descripcio>DISC DUR 250GB S-ATA 7200</descripcio>
+            <cant>4</cant>
+            <preu>120€</preu>
+            <iva>16,0</iva>
+            <import>556,80€</import>
+        </p4>
+        <base_imposable>990,00€</base_imposable>
+        <iva>16,0</iva>
+        <total_iva>155,20€</total_iva>
+        <total_factura>1145,20€</total_factura>
+    </dades_linia_factura>
+</factura>
