@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+header {
+    background-color: #0d47a1;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+}
+h1{
+    margin: 0;
+    font-size: 36px;
+}
+h2 {
+    color: #0d47a1;
+    margin-top: 0;
+}
+nav {
+    background-color: #124075;
+    text-align: center;
+    padding: 12px;
+}
+nav a {
+    color: white;
+    text-decoration: none;          /* Treu el subratllat dels enllaços */
+    margin: 0 15px;                 /* Espai entre els enllaços */
+    font-weight: bold;
+}
+#introduccio {
+    border-top: 4px solid #0d47a1;
+}
+/* Classe per a les caixes principals de contingut */
+.caixa-contingut {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 20px auto;              /* Centra la caixa horitzontalment */
+    padding: 20px;
+    border-radius: 8px;
+}
+/* Classe per a les targetes de resum de notícies */
+.resum-noticia {
+    background-color: #f9fafb;
+    border-left: 4px solid #124075;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

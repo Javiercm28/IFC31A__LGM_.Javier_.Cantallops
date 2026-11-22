@@ -4,31 +4,68 @@
     <meta charset="utf-8">
     <title>Diari TIC - Inici</title>
     
-    <!-- Enllaç al Favicon-->
-    <link rel="shortcut icon" href="imgs/favicon.fav">
+    <!-- Enllaç al Favicon -->
+    <link rel="shortcut icon" href="imgs/favicon.png">
     
     <!-- Enllaç a l'arxiu CSS extern -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Capçalera compartida a totes les pàgines -->
     <header>
-        <h1>Inici</h1>
-        <p>Les noticies més destacables sobre informàtica</p>
+        <h1>Diari TIC</h1>
+        <p>Les notícies més destacables sobre informàtica</p>
     </header>
+
+    <!-- Menú de navegació principal -->
     <nav>
-        <a href="/noticia1.html">Inici</a>
-        <a href="/noticia1.html">notici1</a>
-        <a href="/noticia2.html">notici2</a>
-        <a href="/noticia3.html">notici3</a>
-        <a href="/noticia4.html">notici4</a>
+        <a href="index.html">Inici</a>
+        <a href="noticia1.html">Caiguda de Microsoft</a>
+        <a href="noticia2.html">Notícia 2</a>
+        <a href="noticia3.html">Notícia 3</a>
+        <a href="noticia4.html">Notícia 4</a>
     </nav>
-    <section>
-        <h2> Introducció</h2>
-    </section>
-    <section>
-        <h2> Noticies destacades </h2>
+
+    <!-- Secció única d'introducció (amb ID propi) -->
+    <section id="introduccio" class="caixa-contingut">
+        <h2>Introducció</h2>
+        <p>
+            Benvinguts al <span class="destacat">Diari TIC</span>, un portal on recopilem les notícies més importants del món de les <abbr title="Tecnologies de la Informació i la Comunicació">TIC</abbr> d'aquest any.
+        </p>
     </section>
 
+    <hr> <!-- Línia separadora temàtica -->
+
+    <!-- Secció amb els enllaços a les notícies -->
+    <section class="caixa-contingut">
+        <h2>Notícies destacades</h2>
+
+        <!-- Article 1 (segueix el format h4 > a de l'enunciat) -->
+        <article class="resum-noticia">
+            <h4><a href="noticia1.html">Caiguda històrica dels servidors de Microsoft</a></h4>
+            <p>Una actualització defectuosa provoca una fallada mundial en milions de sistemes Windows.</p>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="resum-noticia">
+            <h4><a href="noticia2.html">Títol de la notícia 2</a></h4>
+            <p>Breu resum de la segona notícia destacada de l'any.</p>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="resum-noticia">
+            <h4><a href="noticia3.html">Títol de la notícia 3</a></h4>
+            <p>Breu resum de la tercera notícia destacada de l'any.</p>
+        </article>
+
+        <!-- Article 4 -->
+        <article class="resum-noticia">
+            <h4><a href="noticia4.html">Títol de la notícia 4</a></h4>
+            <p>Breu resum de la quarta notícia destacada de l'any.</p>
+        </article>
+    </section>
+
+    <!-- Peu de pàgina compartit -->
     <footer>
         <p>Realitzat per en Javier Cantallops Martin</p>
     </footer>
