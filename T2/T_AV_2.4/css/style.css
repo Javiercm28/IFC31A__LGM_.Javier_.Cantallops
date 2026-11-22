@@ -43,10 +43,13 @@ nav a {
 /* Classe per a les targetes de resum de notícies */
 .resum-noticia {
     background-color: #f9fafb;
-    border-left: 4px solid #124075;
     padding: 12px 15px;
     margin-bottom: 15px;
     border-radius: 4px;
+}
+.negreta{
+    font-weight: bold;
+    color: #000000;
 }
 footer {
     background-color: #263238;
