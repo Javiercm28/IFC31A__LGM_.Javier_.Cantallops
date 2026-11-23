@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasca 2.5 - Grid</title>
+    <!-- Enllaç al full d'estils extern amb ruta relativa -->
+    <link rel="stylesheet" href="estil.css">
+</head>
+<body>
+
+    <!-- CAPÇALERA I MENÚ DE NAVEGACIÓ -->
+    <header class="capcalera">
+        <div class="logo">Javier</div>
+        <nav class="menu">
+            <a href="#inici" class="actiu">HOME PAGE</a>
+            <a href="#sobre-mi">ABOUT ME</a>
+            <a href="#ofertes">OFFERS</a>
+            <a href="#contacte">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- SECCIÓ 1: PORTADA (HERO) -->
+    <section id="inici" class="portada">
+        <div class="portada-imatge">
+            <img src="img/placeholder.png" alt="Imatge principal">
+        </div>
+        <div class="portada-text">
+            <h1>Javier Cantallops Martin</h1>
+            <p>En aquesta web es una autobiografia avon coment qui soc i que m'agrada.</p>
+            <a href="#ofertes" class="boto-blau">Compra</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓ 2: SOBRE MI (ABOUT ME) -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="sobre-mi-esquerra">
+            <h2>Qui soc?</h2>
+            <img src="img/placeholder.png" alt="Imatge sobre mi">
+        </div>
+        <div class="sobre-mi-dreta">
+            <p>Soc en Javier Cantallops Martin, tenc 17 anys, estic cursant el grau superior de Xarxes. Soc un apassionat de la informàtica entre altres coses, alguns aspectes personals són:</p>
+            
+            <ol>
+                <li>Proactiu.</li>
+                <li>Polifacetic.</li>
+                <li>Energic.</li>
+                <li>Positiu.</li>
+                <li>Compasiu.</li>
+            </ol>
+
+            <a href="#contacte" class="boto-blau">Contacte</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓ 3: QUÈ OFERIM (GRID ASIMÈTRIC) -->
+    <section id="ofertes" class="ofertes">
+        <div class="ofertes-capcalera">
+            <h2>Que m'agrada?</h2>
+            <p>Aquí veim alguns dels meus hobbies</p>
+        </div>
+
+        <!-- Graella amb Grid de 3 columnes per fer les targetes petites i grans -->
+        <div class="graella-ofertes">
+            <!-- Targeta 1 (Petita) -->
+            <article class="targeta">
+                <img src="img/placeholder.png" alt="Oferta 1">
+                <div class="targeta-info">
+                    <h3>Informatica</h3>
+                    <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                </div>
+            </article>
+
+            <!-- Targeta 2 (Gran - ocupa 2 columnes) -->
+            <article class="targeta gran">
+                <img src="img/placeholder.png" alt="Oferta 2">
+                <div class="targeta-info">
+                    <h3>Motos</h3>
+                    <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                </div>
+            </article>
+
+            <!-- Targeta 3 (Gran - ocupa 2 columnes) -->
+            <article class="targeta gran">
+                <img src="img/placeholder.png" alt="Oferta 3">
+                <div class="targeta-info">
+                    <h3>Amics</h3>
+                    <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                </div>
+            </article>
+
+            <!-- Targeta 4 (Petita) -->
+            <article class="targeta">
+                <img src="img/placeholder.png" alt="Oferta 4">
+                <div class="targeta-info">
+                    <h3>Oferta 4</h3>
+                    <p>Vivamus eu augue tortor. Integer sed justo ornare.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- SECCIÓ 4: FORMULARI DE CONTACTE -->
+    <section id="contacte" class="contacte">
+        <h2>Need a web?</h2>
+        
+        <form class="formulari">
+            <div class="formulari-columnes">
+                <!-- Columna Esquerra -->
+                <div class="col-formulari">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" placeholder="Introdueix el nom">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Introdueix el correu electrònic">
+
+                    <label for="descripcio">Descripció</label>
+                    <textarea id="descripcio" rows="4"></textarea>
+                </div>
+
+                <!-- Columna Dreta -->
+                <div class="col-formulari">
+                    <label for="llinatges">Llinatges</label>
+                    <input type="text" id="llinatges" placeholder="Introdueix els llinatges">
+
+                    <p class="titol-camp">Sexe</p>
+                    <div class="opcions-linia">
+                        <label><input type="radio" name="sexe" value="home"> Home</label>
+                        <label><input type="radio" name="sexe" value="dona"> Dona</label>
+                        <label><input type="radio" name="sexe" value="altre"> Altre</label>
+                    </div>
+
+                    <p class="titol-camp">Com has sabut de mi?</p>
+                    <div class="opcions-graella">
+                        <label><input type="checkbox" name="origen" value="xarxes"> Xarxes Socials</label>
+                        <label><input type="checkbox" name="origen" value="web"> Web</label>
+                        <label><input type="checkbox" name="origen" value="curriculum"> Currículum</label>
+                        <label><input type="checkbox" name="origen" value="google"> Google</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="formulari-boto">
+                <button type="submit" class="boto-blau">Envia</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- PEU DE PÀGINA (FOOTER) -->
+    <footer class="peu">
+        <div class="logo">LOGO</div>
+
+        <div class="peu-enllacos">
+            <ul>
+                <li><a href="#">Política de cookies</a></li>
+                <li><a href="#">Termes i condicions</a></li>
+                <li><a href="#">Qui som</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Fes-te membre</a></li>
+            </ul>
+        </div>
+
+        <div class="xarxes-socials">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="Twitter">t</a>
+            <a href="#" aria-label="TikTok">tk</a>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,300 @@
+/* CONFIGURACIÓ GENERAL I GAMMA DE COLORS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    line-height: 1.5;
+    background-color: #ffffff;
+}
+
+/* Botó blau reutilitzable */
+.boto-blau {
+    display: inline-block;
+    background-color: #2693e6;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 45px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.boto-blau:hover {
+    background-color: #1b7ac2;
+}
+
+/* 1. CAPÇALERA (FLEXBOX) */
+.capcalera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #ffffff;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 12px;
+    padding: 8px 15px;
+}
+
+.menu a.actiu {
+    background-color: #bce6fa; /* Blau cel clar */
+}
+
+/* 2. PORTADA (GRID 2 COLUMNES IGUALS) */
+.portada {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 400px;
+}
+
+.portada-imatge {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada-imatge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portada-text {
+    background-color: #bce6fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.portada-text h1 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.portada-text p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* 3. SOBRE MI (GRID 2 COLUMNES) */
+.sobre-mi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 60px 80px;
+    align-items: center;
+}
+
+.sobre-mi-esquerra h2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.sobre-mi-esquerra img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    background-color: #cccccc;
+}
+
+.sobre-mi-dreta p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.sobre-mi-dreta ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+/* 4. QUÈ OFERIM (GRID ASIMÈTRIC DE 3 COLUMNES) */
+.ofertes {
+    background-color: #bce6fa;
+    padding: 60px 80px;
+}
+
+.ofertes-capcalera {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ofertes-capcalera h2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.ofertes-capcalera p {
+    font-size: 12px;
+}
+
+/* Aquí fem la màgia de les targetes petites i grans */
+.graella-ofertes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.targeta {
+    background-color: #ffffff;
+}
+
+/* Aquesta classe fa que la targeta ocupi 2 espais */
+.targeta.gran {
+    grid-column: span 2;
+}
+
+.targeta img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    background-color: #cccccc;
+    display: block;
+}
+
+.targeta-info {
+    padding: 15px;
+}
+
+.targeta-info h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.targeta-info p {
+    font-size: 12px;
+    color: #555555;
+}
+
+/* 5. FORMULARI DE CONTACTE */
+.contacte {
+    padding: 60px 80px;
+}
+
+.contacte h2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.formulari {
+    background-color: #e0e0e0;
+    padding: 40px;
+    border-radius: 35px;
+}
+
+.formulari-columnes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.col-formulari {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-formulari label,
+.titol-camp {
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.col-formulari input[type="text"],
+.col-formulari input[type="email"],
+.col-formulari textarea {
+    padding: 8px;
+    border: 1px solid #666666;
+    background-color: #ffffff;
+    font-size: 12px;
+}
+
+.opcions-linia {
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.opcions-graella {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.formulari-boto {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* 6. PEU DE PÀGINA (GRID 3 COLUMNES) */
+.peu {
+    background-color: #bce6fa;
+    padding: 40px 80px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.peu-enllacos {
+    display: flex;
+    gap: 60px;
+}
+
+.peu-enllacos ul {
+    list-style-type: disc;
+    font-size: 11px;
+}
+
+.peu-enllacos a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.xarxes-socials {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.xarxes-socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #222222;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #222222;
+    font-size: 12px;
+    font-weight: bold;
+}
