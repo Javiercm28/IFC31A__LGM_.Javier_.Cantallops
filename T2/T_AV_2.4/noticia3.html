@@ -2,15 +2,72 @@
 <html lang="ca">
 <head>
     <meta charset="utf-8">
-    <title>El Meu Diari - Portada</title>
-    
-    <!-- Enllaç al Favicon (icona de la pestanya) -->
-    <link rel="shortcut icon" href="imatges/favicon.png" type="image/png">
-    
-    <!-- Enllaç a l'arxiu CSS extern -->
-    <link rel="stylesheet" href="css/estils.css">
+    <title>Diari TIC - Ciberseguretat</title>
+    <link rel="shortcut icon" href="imgs/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Aquí anirà el contingut -->
+    <!-- Capçalera -->
+    <header>
+        <h1>Diari TIC</h1>
+        <p>Les notícies més destacables sobre informàtica</p>
+    </header>
+
+    <!-- Menú de navegació -->
+    <nav>
+        <a href="index.html">Inici</a>
+        <a href="noticia1.html">Caiguda de Microsoft</a>
+        <a href="noticia2.html">Avenços en IA</a>
+        <a href="noticia3.html">Ciberseguretat</a>
+        <a href="noticia4.html">Dimissió a Nvidia</a>
+    </nav>
+
+    <!-- Quadrat principal de la notícia -->
+    <section class="caixa-contingut">
+        <article>
+            <h2>Augmenten els ciberatacs a empreses i usuaris</h2>
+            <p>Publicat el <span>22/11/2026</span></p>
+
+            <p>
+                Els experts en seguretat informàtica alerten d'un increment notable dels atacs digitals durant aquest any. L'ús de contrasenyes segures i l'autenticació en dos passos són ara imprescindibles.
+            </p>
+
+            <hr>
+
+            <!-- Requisit: Taula de dades -->
+            <h3>Tipus d'atacs més freqüents</h3>
+            <table>
+                <tr>
+                    <th>Tipus d'atac</th>
+                    <th>Objectiu principal</th>
+                    <th>Nivell de risc</th>
+                </tr>
+                <tr>
+                    <td>Phishing</td>
+                    <td>Robar contrasenyes per correu fals</td>
+                    <td>Alt</td>
+                </tr>
+                <tr>
+                    <td>Ransomware</td>
+                    <td>Segrestar arxius i demanar un rescat</td>
+                    <td>Molt alt</td>
+                </tr>
+                <tr>
+                    <td>Malware</td>
+                    <td>Infectar l'equip mitjançant descàrregues</td>
+                    <td>Mitjà</td>
+                </tr>
+            </table>
+
+            <p>
+                Més consells de protecció a la web de l'<a href="https://www.incibe.es" target="_blank">INCIBE</a>.
+            </p>
+        </article>
+    </section>
+
+    <!-- Peu de pàgina -->
+    <footer>
+        <p>Realitzat per en Javier Cantallops Martin</p>
+    </footer>
 </body>
 </html>
