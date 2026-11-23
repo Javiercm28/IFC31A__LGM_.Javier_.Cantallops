@@ -12,7 +12,7 @@ body {
     background-color: #ffffff;
 }
 
-/* Botó blau reutilitzable */
+/* Botó blau */
 .boto-blau {
     display: inline-block;
     background-color: #2693e6;
@@ -26,11 +26,9 @@ body {
     margin-top: 15px;
 }
 
-.boto-blau:hover {
-    background-color: #1b7ac2;
-}
 
-/* 1. CAPÇALERA (FLEXBOX) */
+
+/* 1. CAPÇALERA*/
 .capcalera {
     display: flex;
     justify-content: space-between;
@@ -60,7 +58,7 @@ body {
     background-color: #bce6fa; /* Blau cel clar */
 }
 
-/* 2. PORTADA (GRID 2 COLUMNES IGUALS) */
+/* 2. PORTADA */
 .portada {
     display: grid;
     grid-template-columns: 1fr 1fr;
